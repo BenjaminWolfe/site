@@ -39,7 +39,7 @@ copyright = "© Benjamin Wolfe. All rights reserved unless otherwise specified."
 [params]
   author = "Benjamin Wolfe"
   bg = "images/grey-prism.svg"
-  avatar = "images/avatar.jpg"
+  avatar = "images/avatar.png"
   seotitle = "Benjamin Wolfe"
   subtitle = "R and Life"
   description = "R, data science, and life. But I repeat myself."
