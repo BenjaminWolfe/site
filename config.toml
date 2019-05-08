@@ -1,19 +1,20 @@
 baseURL = ""
 languageCode = "en"
-title = "Hugo Blog"
+title = "Benjamin Wolfe"
 theme = "hugo-nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Disqus Username
-disqusShortname = "disqus_shortname"
+disqusShortname = "benjamin-wolfe"
 
 # Google Analytics UA number
-googleAnalytics = "UA-XXXXXXXX-X"
+googleAnalytics = "UA-139857561-1"
 
 # Copyright of your post
-copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
+copyright = "© Benjamin Wolfe. All rights reserved unless otherwise specified."
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
@@ -26,7 +27,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   name = "Works"
   weight = 20
   identifier = "works"
-  url = "https://github.com/laozhu"
+  url = "https://github.com/BenjaminWolfe"
 
 [[menu.main]]
   name = "Tags"
@@ -36,22 +37,22 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
 # Add your own params here
 [params]
-  author = "Ritchie Zhu"
+  author = "Benjamin Wolfe"
   bg = "images/grey-prism.svg"
-  avatar = "images/avatar.png"
-  seotitle = "Hugo Blog (SEO Version)"
-  subtitle = "~ Keep It Simple & Stupid ~"
-  description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+  avatar = "images/avatar.jpg"
+  seotitle = "Benjamin Wolfe"
+  subtitle = "R and Life"
+  description = "R, data science, and life. But I repeat myself."
   paginate = 10
 
   # Choose your social networks
-  email = "name@domain.com"
-  github = "github_username"
-  twitter = "twitter_username"
-  linkedin = "linkedin_username"
-  weibo = "weibo_username"
-  wechat= "images/qrcode.jpg"  # Replace with your wechat qrcode image
-  # facebook = "facebook_username"
+  email = "benjamin.e.wolfe@gmail.com"
+  github = "BenjaminWolfe"
+  twitter = "BenjaminWolfe"
+  linkedin = "benjaminwolfe"
+  # weibo = "weibo_username"
+  # wechat= "images/qrcode.jpg"  # Replace with your wechat qrcode image
+  facebook = "benjamin.e.wolfe"
   # google = "googlplus_id_number"
   # instagram = "instagram_username"
   # youtube = "youtube_username"
@@ -66,7 +67,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # zhihu = "zhihu_username"
   # douban = "douban_username"
   # bilibili = "bilibili_id_number"
-  # stackoverflow = "laozhu"
+  stackoverflow = "573332"
   # codesandbox = "melaozhu"
   # npm = "laozhu"
   # reddit = "melaozhu"
@@ -81,11 +82,11 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
   # Google Webmaster
   # https://www.google.com/webmasters/
-  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+  googleSiteVerification = "OvSJKddqp-_ATMEX1ZBKaRrJKL3YL1bjyvluXJHPvBo"
 
   # Bing Webmaster
   # https://www.bing.com/toolbox/webmaster/
-  msValidate = "22596E34341DD1D17D6022C44647E587"
+  msValidate = "99B1D3C77BACC32D9402944337943ADC"
 
   # Baidu Webmaster (China Only)
   # https://zhanzhang.baidu.com/

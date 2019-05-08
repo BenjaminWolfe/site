@@ -32,11 +32,11 @@ This document is a brief primer on using go templates.">
   
   
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@twitter_username">
+    <meta name="twitter:site" content="@BenjaminWolfe">
     <meta name="twitter:title" content="(Hu)go Template Primer">
     <meta name="twitter:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.">
-    <meta name="twitter:image" content="/images/avatar.png">
+    <meta name="twitter:image" content="/images/avatar.jpg">
   
 
   
@@ -45,7 +45,7 @@ This document is a brief primer on using go templates.">
   <meta property="og:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.">
   <meta property="og:url" content="/post/goisforlovers/">
-  <meta property="og:image" content="/images/avatar.png">
+  <meta property="og:image" content="/images/avatar.jpg">
 
 
 
@@ -63,8 +63,8 @@ This document is a brief primer on using go templates.">
 
 <meta name="robots" content="index,follow">
 <meta name="referrer" content="origin-when-cross-origin">
-<meta name="google-site-verification" content="_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc">
-<meta name="msvalidate.01" content="22596E34341DD1D17D6022C44647E587">
+<meta name="google-site-verification" content="OvSJKddqp-_ATMEX1ZBKaRrJKL3YL1bjyvluXJHPvBo">
+<meta name="msvalidate.01" content="99B1D3C77BACC32D9402944337943ADC">
 
 
 
@@ -73,8 +73,8 @@ This document is a brief primer on using go templates.">
 <meta name="theme-color" content="#02b875">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Hugo Blog">
-<meta name="msapplication-tooltip" content="Hugo Blog">
+<meta name="apple-mobile-web-app-title" content="Benjamin Wolfe">
+<meta name="msapplication-tooltip" content="Benjamin Wolfe">
 <meta name='msapplication-navbutton-color' content="#02b875">
 <meta name="msapplication-TileColor" content="#02b875">
 <meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
@@ -90,7 +90,7 @@ This document is a brief primer on using go templates.">
 
 
 <link rel="preload" href="https://fonts.googleapis.com/css?family=Lobster" as="style">
-<link rel="preload" href="/images/avatar.png" as="image">
+<link rel="preload" href="/images/avatar.jpg" as="image">
 <link rel="preload" href="/images/grey-prism.svg" as="image">
 
 
@@ -141,11 +141,11 @@ This document is a brief primer on using go templates.">
     
     
   <header class="site-header">
-  <img class="avatar" src="/images/avatar.png" alt="Avatar">
+  <img class="avatar" src="/images/avatar.jpg" alt="Avatar">
   
-  <h2 class="title">Hugo Blog</h2>
+  <h2 class="title">Benjamin Wolfe</h2>
   
-  <p class="subtitle">~ Keep It Simple &amp; Stupid ~</p>
+  <p class="subtitle">R and Life</p>
   <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
     <span class="icon icon-menu" aria-hidden="true"></span>
   </button>
@@ -168,7 +168,7 @@ This document is a brief primer on using go templates.">
           
           
           ">
-          <a href="https://github.com/laozhu">Works</a>
+          <a href="https://github.com/BenjaminWolfe">Works</a>
         </li>
       
         <li class="menu-item
@@ -197,27 +197,27 @@ This document is a brief primer on using go templates.">
   <nav class="social-menu collapsed">
     <h2 class="offscreen">Social Networks</h2>
     <ul class="social-list"><li class="social-item">
-          <a href="mailto:name@domain.com" title="Email" aria-label="Email">
+          <a href="mailto:benjamin.e.wolfe@gmail.com" title="Email" aria-label="Email">
             <span class="icon icon-email" aria-hidden="true"></span>
           </a>
         </li><li class="social-item">
-          <a href="//github.com/github_username" rel="me" title="GitHub" aria-label="GitHub">
+          <a href="//github.com/BenjaminWolfe" rel="me" title="GitHub" aria-label="GitHub">
 	    <span class="icon icon-github" aria-hidden="true"></span>
           </a>
         </li><li class="social-item">
-          <a href="//twitter.com/twitter_username" rel="me" title="Twitter" aria-label="Twitter">
+          <a href="//twitter.com/BenjaminWolfe" rel="me" title="Twitter" aria-label="Twitter">
             <span class="icon icon-twitter" aria-hidden="true"></span>
           </a>
         </li><li class="social-item">
-          <a href="//weibo.com/weibo_username" rel="me" title="Weibo" aria-label="Weibo">
-            <span class="icon icon-weibo" aria-hidden="true"></span>
+          <a href="//www.facebook.com/benjamin.e.wolfe" rel="me" title="Facebook" aria-label="Facebook">
+            <span class="icon icon-facebook" aria-hidden="true"></span>
           </a>
         </li><li class="social-item">
-          <a href="/images/qrcode.jpg" rel="me" title="Wechat" aria-label="Wechat">
-            <span class="icon icon-wechat" aria-hidden="true"></span>
+          <a href="//stackoverflow.com/users/573332" rel="me" title="Stack Overflow"  aria-label="Stack Overflow">
+            <span class="icon icon-stackoverflow" aria-hidden="true"></span>
           </a>
         </li><li class="social-item">
-          <a href="//www.linkedin.com/in/linkedin_username" rel="me" title="LinkedIn" aria-label="LinkedIn">
+          <a href="//www.linkedin.com/in/benjaminwolfe" rel="me" title="LinkedIn" aria-label="LinkedIn">
             <span class="icon icon-linkedin" aria-hidden="true"></span>
           </a>
         </li></ul>
@@ -227,7 +227,7 @@ This document is a brief primer on using go templates.">
   <section class="main post-detail">
     <header class="post-header">
       <h1 class="post-title">(Hu)go Template Primer</h1>
-      <p class="post-meta">@Ritchie Zhu · Jul 28, 2014 · 7 min read</p>
+      <p class="post-meta">@Benjamin Wolfe · Jul 28, 2014 · 7 min read</p>
     </header>
     <article class="post-content">
 
@@ -581,7 +581,7 @@ so, such as in this example:</p>
       </ul>
       
       <p class="post-copyright">
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.This post was published <strong>1744</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
+        © Benjamin Wolfe. All rights reserved unless otherwise specified.This post was published <strong>1745</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.
       </p>
     </footer>
     
@@ -598,7 +598,7 @@ so, such as in this example:</p>
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "disqus_shortname" + '.disqus.com/embed.js';
+        s.src = '//' + "benjamin-wolfe" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
@@ -610,7 +610,7 @@ so, such as in this example:</p>
   </section>
   
 <footer class="site-footer">
-  <p>© 2017-2019 Hugo Blog</p>
+  <p>© 2017-2019 Benjamin Wolfe</p>
   <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
   
 </footer>
@@ -667,7 +667,7 @@ so, such as in this example:</p>
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-XXXXXXXX-X', 'auto');
+	ga('create', 'UA-139857561-1', 'auto');
 	
 	ga('send', 'pageview');
 }
